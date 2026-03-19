@@ -35,3 +35,16 @@
 - [ ] Connect Google Tasks
 - [ ] Set up Telegram bot as command channel
 - [ ] Build Morning Brief workflow
+## HTTPS Setup
+- Subdomain created: n8n.valencloud.xyz → 204.168.176.138
+- Nginx installed and configured as reverse proxy
+- SSL certificate issued via Let's Encrypt / Certbot
+- n8n now only accessible via HTTPS
+- Port 5678 closed to public, routed internally via Nginx
+- Permanent fix: chown -R 1000:1000 baked into start-n8n.sh
+
+## Issues Fixed
+3. 502 Bad Gateway after HTTPS setup
+   - Cause: permissions wiped when container was recreated
+   - Fix: chown -R 1000:1000 ~/catena/n8n-data before docker run
+   - Prevention: added fix permanently to start-n8n.sh
