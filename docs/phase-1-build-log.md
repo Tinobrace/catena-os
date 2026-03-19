@@ -48,3 +48,12 @@
    - Cause: permissions wiped when container was recreated
    - Fix: chown -R 1000:1000 ~/catena/n8n-data before docker run
    - Prevention: added fix permanently to start-n8n.sh
+
+## Outlook Connection
+- Personal Microsoft account connected to n8n
+- Azure App registered: CATENA-n8n
+- App ID: a5f81782-082e-4d53-b2e1-3e3be3024e04
+- Permissions: Mail.Read, Mail.Send, Calendars.Read, Tasks.ReadWrite
+- Common OAuth URLs used for personal account
+- Issue fixed: copied secret ID instead of secret Value
+- [x] Outlook credential live and confirmed working in n8n
