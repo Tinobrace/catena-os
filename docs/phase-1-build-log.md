@@ -57,3 +57,16 @@
 - Common OAuth URLs used for personal account
 - Issue fixed: copied secret ID instead of secret Value
 - [x] Outlook credential live and confirmed working in n8n
+
+## Google Tasks Connection
+- Google Cloud project created: CATENA
+- APIs enabled: Google Tasks, Gmail, Google Calendar
+- OAuth client registered: CATENA-n8n
+- 4 Google accounts connected:
+  - val.ukah01@gmail.com
+  - tinobracex640@gmail.com
+  - ucheukah01@gmail.com
+  - valen.uchenna@gmail.com
+- Fix applied: redirect_uri_mismatch — corrected URI in Google Cloud
+- Fix applied: second account auth — recreated credentials cleanly
+- [x] All 4 Google Tasks accounts live in n8n
