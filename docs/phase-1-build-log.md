@@ -70,3 +70,12 @@
 - Fix applied: redirect_uri_mismatch — corrected URI in Google Cloud
 - Fix applied: second account auth — recreated credentials cleanly
 - [x] All 4 Google Tasks accounts live in n8n
+
+## Morning Brief — LIVE
+- First successful execution: 2026-03-20
+- Claude AI generating intelligent summaries
+- Delivering to Telegram daily at 7:45am
+- Fixed: Always Output Data on all nodes
+- Fixed: Node name references in HTTP Request body
+- Fixed: Raw mode + expression toggle for JSON body
+- CATENA identified real security risks on first run
