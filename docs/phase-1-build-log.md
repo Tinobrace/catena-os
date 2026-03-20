@@ -85,3 +85,10 @@
 - Primary account: val.ukah01@gmail.com
 - Brief now covers: Google Calendar + Google Tasks + Outlook + Gmail
 - Decision: one primary Gmail for Morning Brief, others reserved for specific workflows
+
+## Work Email Integration
+- Method: Power Automate (Microsoft 365 — sterling.ng account)
+- Flow name: CATENA — Work Email to Personal
+- Trigger: New email matching SLA/ticket/incident/urgent/P1/P2 keywords
+- Action: Copy to val.ukah01@outlook.com with [WORK] prefix
+- DLP blocked direct forwarding — Power Automate workaround successful
