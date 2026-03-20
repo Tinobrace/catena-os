@@ -79,3 +79,9 @@
 - Fixed: Node name references in HTTP Request body
 - Fixed: Raw mode + expression toggle for JSON body
 - CATENA identified real security risks on first run
+
+## Gmail Integration
+- Gmail connected to Morning Brief workflow
+- Primary account: val.ukah01@gmail.com
+- Brief now covers: Google Calendar + Google Tasks + Outlook + Gmail
+- Decision: one primary Gmail for Morning Brief, others reserved for specific workflows
