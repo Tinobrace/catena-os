@@ -100,3 +100,11 @@
 - Action: Copy to val.ukah01@outlook.com with [WORK] prefix
 - Condition: OR logic — any keyword match triggers copy
 - [x] Flow saved and active
+
+## Timezone Fix
+- Problem: n8n defaulting to America/New_York
+- Fix: Added GENERIC_TIMEZONE=Africa/Lagos and TZ=Africa/Lagos to docker run
+- Updated start-n8n.sh with timezone variables permanently
+- Schedule trigger now shows Africa/Lagos (WAT, +0100) correctly
+- Morning Brief confirmed firing automatically at correct Lagos time
+- [x] Automatic daily brief confirmed working in real time
