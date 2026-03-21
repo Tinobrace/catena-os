@@ -92,3 +92,11 @@
 - Trigger: New email matching SLA/ticket/incident/urgent/P1/P2 keywords
 - Action: Copy to val.ukah01@outlook.com with [WORK] prefix
 - DLP blocked direct forwarding — Power Automate workaround successful
+
+## Work Email Integration
+- Method: Power Automate (Microsoft 365 — sterling.ng)
+- Flow: CATENA — Work Email to Personal
+- Keywords: urgent, ticket, SLA, P1, P2, incident, alert, breach, servicedesk
+- Action: Copy to val.ukah01@outlook.com with [WORK] prefix
+- Condition: OR logic — any keyword match triggers copy
+- [x] Flow saved and active
