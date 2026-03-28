@@ -118,3 +118,13 @@
 - Personal Outlook folder created for Sterling Bank emails
 - All flows confirmed working via test emails
 - Full stakeholder list: managers, PMs, DevOps, IT Leadership, vendors, business units
+
+## Daily Intelligence Workflow — Consolidated
+- Replaced 5 duplicate workflows with 1 smart workflow
+- 4 daily briefs: 7:45am, 12:00pm, 5:30pm, 9:00pm
+- Switch node routes to correct prompt based on time
+- Morning Brief: priorities and meetings
+- Midday Check: SLA risks and afternoon focus
+- EOD Report: wrap up and tomorrow prep
+- Night Digest: unfinished business and tomorrow overview
+- [x] All 4 briefs live in one workflow
