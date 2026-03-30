@@ -128,3 +128,14 @@
 - EOD Report: wrap up and tomorrow prep
 - Night Digest: unfinished business and tomorrow overview
 - [x] All 4 briefs live in one workflow
+
+## Daily Intelligence Workflow — COMPLETE
+- Consolidated 4 briefs into one workflow: CATENA Daily Intelligence
+- Schedule: 7:45am, 12:00pm, 5:30pm, 9:00pm Lagos time
+- Time Router Switch node routes to correct brief by hour
+- Fallback output connected to Morning Brief for testing
+- All 4 Claude nodes working correctly
+- Body Content Type: Raw — key fix for all nodes
+- Fixed: content must be plain string not array format
+- API credits depleted — topped up and ready
+- [x] Daily Intelligence workflow complete and live
